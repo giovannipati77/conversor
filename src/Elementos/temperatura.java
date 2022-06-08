@@ -53,7 +53,7 @@ public class temperatura extends JFrame {
 				new String[] { "Grado Celsius a Kelvin", "Grado Celsius a Fahrenheit", "Grado Fahrenheit a Kelvin",
 						"Grado Fahrenheit a Celsius", "Grado Kelvin a Celsius", "Grado Kelvin a Fahrenheit" }));
 
-		JButton btnNewButton = new JButton("New button");
+		JButton btnNewButton = new JButton("Validar");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String entrada = "";
